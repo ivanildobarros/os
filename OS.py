@@ -9,11 +9,15 @@ os.listdir()
 # Criar pasta
 os.mkdir('Pasta')
 
-#Renomear arquivo
+# Renomear arquivo
 os.rename('teste2.txt', 'teste.txt')
 
-#Remover arquivo
+# Remover arquivo
 os.remove('teste.txt')
 
-#Remover pasta
+# Remover pasta
 os.rmdir('Pasta')
+
+# string com comando do sistema
+cmd = 'date'
+os.system(cmd)
